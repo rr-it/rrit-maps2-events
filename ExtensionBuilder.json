@@ -1,0 +1,45 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "",
+        "emConf": {
+            "category": "plugin",
+            "custom_category": "",
+            "dependsOn": "typo3 => 9.5.0-9.5.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "9.5.0-9.5.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "rrit_maps2_events",
+        "name": "RRIT Events for Maps2",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "R. Rafalski IT-Beratung",
+                "email": "mail@ayke-halder.de",
+                "name": "Ayke Halder",
+                "role": "Developer"
+            },
+            {
+                "company": "R. Rafalski IT-Beratung",
+                "email": "mail@ayke-halder.de",
+                "name": "Ayke Halder",
+                "role": "Product Manager"
+            }
+        ],
+        "plugins": [],
+        "vendorName": "RRafalskiIt"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2020-03-17 06:00",
+        "extension_builder_version": "9.10.2",
+        "be_user": "Ayke Halder (1)"
+    }
+}

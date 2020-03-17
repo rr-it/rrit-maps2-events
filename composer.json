@@ -1,0 +1,32 @@
+{
+    "name": "rrafalskiit/rrit-maps2-events",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "authors": [
+        {
+            "name": "Ayke Halder",
+            "role": "Developer"
+        },
+        {
+            "name": "Ayke Halder",
+            "role": "Product Manager"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "RRafalskiIt\\RritMaps2Events\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "RRafalskiIt\\RritMaps2Events\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "rrafalskiit/rrit-maps2-events": "self.version",
+        "typo3-ter/rrit-maps2-events": "self.version"
+    }
+}
