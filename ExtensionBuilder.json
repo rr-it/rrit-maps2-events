@@ -6,7 +6,7 @@
         "emConf": {
             "category": "plugin",
             "custom_category": "",
-            "dependsOn": "typo3 => 9.5.0-9.5.99\n",
+            "dependsOn": "typo3 => 9.5.0-9.5.99\nmaps2 => 9.0.0-9.0.99",
             "disableLocalization": false,
             "disableVersioning": false,
             "skipGenerateDocumentationTemplate": false,
@@ -17,8 +17,8 @@
         },
         "extensionKey": "rrit_maps2_events",
         "name": "RRIT Events for Maps2",
-        "originalExtensionKey": "",
-        "originalVendorName": "",
+        "originalExtensionKey": "rrit_maps2_events",
+        "originalVendorName": "RRafalskiIt",
         "persons": [
             {
                 "company": "R. Rafalski IT-Beratung",
@@ -38,7 +38,7 @@
     },
     "wires": [],
     "log": {
-        "last_modified": "2020-03-17 06:00",
+        "last_modified": "2020-03-18 12:25",
         "extension_builder_version": "9.10.2",
         "be_user": "Ayke Halder (1)"
     }
