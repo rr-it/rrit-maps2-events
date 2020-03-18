@@ -13,3 +13,20 @@ config.tx_extbase.persistence.classes {
         }
     }
 }
+
+plugin.tx_sfeventmgt {
+    view {
+        templateRootPaths.555 = EXT:rrit_maps2_events/Resources/Private/Ext/SfEventMgt/Templates/
+        partialRootPaths.555 = EXT:rrit_maps2_events/Resources/Private/Ext/SfEventMgt/Partials/
+        layoutRootPaths.555 = EXT:rrit_maps2_events/Resources/Private/Ext/SfEventMgt/Layouts/
+    }
+}
+/*
+plugin.tx_maps2 {
+    view {
+        templateRootPaths.555 = EXT:rrit_maps2_events/Resources/Private/Ext/Maps2/Templates/
+        partialRootPaths.555 = EXT:rrit_maps2_events/Resources/Private/Ext/Maps2/Partials/
+        layoutRootPaths.555 = EXT:rrit_maps2_events/Resources/Private/Ext/Maps2/Layouts/
+    }
+}
+*/

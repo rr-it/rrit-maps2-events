@@ -1,0 +1,34 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers"
+	  xmlns:rritmaps2="http://typo3.org/ns/RRafalskiIt/RritMaps2Events/ViewHelpers/Maps2"
+	  data-namespace-typo3-fluid="true">
+
+<f:layout name="Default" />
+
+<f:section name="main">
+
+	<h1><f:translate key="list.title" /></h1>
+
+	<!-- Output all events on map -->
+	<rritmaps2:widget.poiCollection eventsPoiCollection="{events}" />
+
+    <!-- The code below shows how you can filter events by categories. You can e.g. create an UL which acts like a select-box -->
+	<f:link.action action="list" controller="Event" class="{f:if(condition: overwriteDemand.category,then: 'button button-outline', else: 'button')}"><f:translate key="event.allEvents" /></f:link.action>
+    <f:for each="{categories}" as="category">
+		<f:if condition="{overwriteDemand.category} == {category.uid}">
+			<f:then>
+				<f:link.action action="list" controller="Event" arguments="{overwriteDemand:{category: category}}" class="active button">{category.title}</f:link.action>
+			</f:then>
+			<f:else>
+				<f:link.action action="list" controller="Event" arguments="{overwriteDemand:{category: category}}" class="button button-outline">{category.title}</f:link.action>
+			</f:else>
+		</f:if>
+    </f:for>
+
+    <!-- Output all events -->
+    <f:for each="{events}" as="event">
+        <f:render partial="Event/ListItem" arguments="{_all}"/>
+    </f:for>
+
+</f:section>
+
+</html>
