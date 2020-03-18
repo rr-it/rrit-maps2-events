@@ -1,0 +1,15 @@
+# ==============================================
+# Persistence object mapping configuration
+# ==============================================
+config.tx_extbase.persistence.classes {
+    RRafalskiIt\RritMaps2Events\XClass\DERHANSEN\SfEventMgt\Domain\Model\Event {
+        mapping {
+            tableName = tx_sfeventmgt_domain_model_event
+        }
+    }
+    RRafalskiIt\RritMaps2Events\XClass\DERHANSEN\SfEventMgt\Domain\Model\Location {
+        mapping {
+            tableName = tx_sfeventmgt_domain_model_location
+        }
+    }
+}

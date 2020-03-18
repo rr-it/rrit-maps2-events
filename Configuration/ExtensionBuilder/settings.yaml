@@ -57,7 +57,7 @@ overwriteSettings:
 
   user_extension.svg: keep
 
-#  ext_localconf.php: merge
+  ext_localconf.php: merge
 
 #  ext_tables.php: merge
 
